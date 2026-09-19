@@ -1,104 +1,177 @@
-🧮 Scientific Calculator | Java Swing
+<div align="center">
+
+# 🧮 Scientific Calculator
+
+### Java Swing Desktop Application
+
+A feature-rich desktop calculator built using **Java Swing** and **Apache NetBeans IDE 22**, designed to perform arithmetic calculations through an intuitive graphical user interface.
 
 <p align="center">
-  A desktop calculator application built using Java Swing and Apache NetBeans IDE 22.
-</p><p align="center">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
-  <img src="https://img.shields.io/badge/Java%20Swing-GUI-blue?style=for-the-badge" alt="Java Swing"/>
-  <img src="https://img.shields.io/badge/NetBeans-22-1B6AC6?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white" alt="Apache NetBeans 22"/>
-  <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-</p>---
-
-📌 About the Project
-
-The Scientific Calculator is a Java-based desktop application developed as part of my college coursework.
-
-Built with Java Swing ("javax.swing"), this project provides a graphical interface for performing calculations through interactive buttons.
-
-The main objective was to gain practical experience in Java GUI development, event handling, and connecting user interactions with application logic.
-
-✨ Features
-
-- 🖥️ Interactive graphical user interface
-- 🔢 Button-based calculator input
-- ➕ Arithmetic calculations
-- 🧹 Clear button to reset input
-- ⬅️ Back button to edit input
-- ⚡ Event-driven interaction using Java
-- 🎨 Simple and user-friendly interface
-
-
-🛠️ Technologies Used
-
-Technology| Purpose
-☕ Java| Core programming language
-🪟 Java Swing| Building the graphical user interface
-💻 Apache NetBeans IDE 22| Development environment
-⚙️ JDK| Compiling and running Java applications
-🐙 Git & GitHub| Version control and repository hosting
-
-⚙️ Getting Started
-
-Prerequisites
-
-Before running the project, make sure you have:
-
-- Java Development Kit (JDK) installed
-- Apache NetBeans IDE 22 installed
-
-🚀 Run Locally
-
-1. Clone the repository
-
-git clone https://github.com/priyanshi17112007/Scientific_calculator.git
-
-2. Open the project
-
-- Launch Apache NetBeans IDE 22.
-- Go to File → Open Project.
-- Select the downloaded project folder.
-
-3. Run the application
-
-- Open the project in NetBeans.
-- Right-click the project and select Run.
-- Alternatively, press "F6" to run the project.
-
-🎓 What I Learned
-
-Working on this project helped me strengthen my understanding of:
-
-- Java programming fundamentals
-- GUI development using Java Swing
-- Event handling and button interactions
-- Object-oriented programming concepts
-- Connecting interface components with application logic
-- Developing desktop applications using an IDE
-
-🔮 Future Enhancements
-
-Possible improvements for future versions:
-
-- Add more scientific mathematical functions.
-- Implement keyboard-based input.
-- Improve the user interface and design.
-- Add calculation history.
-- Improve input validation and error handling.
-
-👩‍💻 About Me
-
-Priyanshi Sharma
-
-🎓 Computer Science Student | AI Specialization
-
-💡 Interested in Artificial Intelligence,Development, and Software Engineering.
-
-<p>
-  <a href="https://github.com/priyanshi17112007">
-    <img src="https://img.shields.io/badge/GitHub-View%20Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile"/>
-  </a>
-</p>---
-
-<p align="center">
-  ⭐ If you find this project useful, consider giving the repository a star!
+  <img src="https://skillicons.dev/icons?i=java,git,github" />
 </p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-Swing-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Apache%20NetBeans-22-1B6AC6?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Desktop%20Application-Java-blue?style=for-the-badge"/>
+</p>
+
+</div>
+
+---
+
+## 📖 About the Project
+
+The **Scientific Calculator** is a Java-based desktop application developed as part of my academic coursework to strengthen my understanding of **GUI development**, **event-driven programming**, and **Object-Oriented Programming (OOP)**.
+
+Built with the `javax.swing` library, the application allows users to perform calculations using an interactive button-based interface while demonstrating practical implementation of Java desktop applications.
+
+---
+
+## ✨ Features
+
+- 🖥️ Interactive Java Swing graphical interface
+- 🔢 Button-based numeric input
+- ➕ Basic arithmetic operations
+- 🧹 Clear (C) functionality
+- ⬅️ Backspace/Delete support
+- ⚡ Event-driven button handling
+- 🎨 Clean and beginner-friendly UI
+- 💻 Lightweight desktop application
+
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+| Technology | Purpose |
+|------------|---------|
+| <img src="https://skillicons.dev/icons?i=java" width="22"/> **Java** | Core programming language |
+| 🪟 **Java Swing** | Graphical User Interface |
+| <img src="https://skillicons.dev/icons?i=idea" width="22"/> **Apache NetBeans IDE 22** | Development Environment |
+| ⚙️ **JDK** | Compile & Run Application |
+| <img src="https://skillicons.dev/icons?i=git,github" height="22"/> **Git & GitHub** | Version Control |
+
+</div>
+
+---
+
+## 🏗️ Project Structure
+
+```text
+Scientific_Calculator/
+│
+├── src/
+│   ├── Calculator.java
+│   ├── Calculator.form
+│   └── ...
+│
+├── nbproject/
+│
+├── build/
+│
+├── dist/
+│
+├── README.md
+└── LICENSE
+```
+
+---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+
+Make sure the following are installed:
+
+- ☕ Java Development Kit (JDK 17 or later)
+- 🪟 Apache NetBeans IDE 22
+
+### Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/priyanshi17112007/Scientific_calculator.git
+```
+
+2. **Open in NetBeans**
+
+- Launch **Apache NetBeans IDE 22**
+- Navigate to **File → Open Project**
+- Select the cloned project folder
+
+3. **Run the application**
+
+- Right-click the project
+- Select **Run**
+- Or simply press **F6**
+
+---
+
+## 📸 Application Preview
+
+> Replace these placeholders with your project screenshots.
+
+| Calculator UI |
+|---------------|
+| <img width="700" alt="Calculator Screenshot" src="https://via.placeholder.com/700x420.png?text=Scientific+Calculator+UI"> |
+
+---
+
+## 🧠 Concepts Practiced
+
+This project helped me gain hands-on experience with:
+
+- Object-Oriented Programming (OOP)
+- Java Swing GUI Design
+- Action Listeners & Event Handling
+- Button-based User Interaction
+- Desktop Application Development
+- IDE-based Java Project Management
+
+---
+
+## 🚀 Future Enhancements
+
+Planned improvements include:
+
+- Scientific functions (`sin`, `cos`, `tan`, `log`, `√`)
+- Keyboard input support
+- Calculation history panel
+- Dark mode interface
+- Better exception handling & input validation
+- Improved UI/UX design
+
+---
+
+## 👩‍💻 Developer
+
+<div align="center">
+
+### Priyanshi Sharma
+
+**B.Tech Computer Science (AI Specialization)**
+
+Passionate about **Artificial Intelligence • Java Development • Software Engineering**
+
+<p align="center">
+  <a href="https://github.com/priyanshi17112007">
+    <img src="https://img.shields.io/badge/GitHub-@priyanshi17112007-181717?style=for-the-badge&logo=github"/>
+  </a>
+</p>
+
+</div>
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, consider giving it a **Star** on GitHub!
+
+<div align="center">
+
+**Made with ❤️ using Java Swing**
+
+</div>
