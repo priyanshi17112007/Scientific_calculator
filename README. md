@@ -1,1 +1,32 @@
+# 🧮 Scientific Calculator
 
+<div align="center">
+
+### Java Swing Desktop Calculator Application
+
+A modern **Scientific Calculator** built using **Java Swing** and **Apache NetBeans IDE 22**.
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,git,github,vscode" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-Swing-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Apache%20NetBeans-IDE%2022-1B6AC6?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white"/>
+</p>
+
+</div>
+
+---
+
+## 📖 About the Project
+
+The **Scientific Calculator** is a Java desktop application built using Java Swing.
+
+## ✨ Features
+
+- Interactive GUI
+- Arithmetic operations
+- Clear & Backspace
+- Event-driven programming
+- Object-Oriented Design
