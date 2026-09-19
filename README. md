@@ -1,19 +1,22 @@
-<div align="center">
-
 # 🧮 Scientific Calculator
 
-### Java Swing Desktop Application
+<div align="center">
 
-A feature-rich desktop calculator built using **Java Swing** and **Apache NetBeans IDE 22**, designed to perform arithmetic calculations through an intuitive graphical user interface.
+### Java Swing Desktop Calculator Application
+
+A modern **Scientific Calculator** built using **Java Swing** and **Apache NetBeans IDE 22**, featuring an interactive GUI, event-driven programming, and object-oriented design.
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,git,github" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=java,git,github,vscode&theme=light" />
+  </a>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-Swing-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Apache%20NetBeans-22-1B6AC6?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Desktop%20Application-Java-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Apache%20NetBeans-IDE%2022-1B6AC6?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Desktop-Application-0D6EFD?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/OOP-Java-success?style=for-the-badge"/>
 </p>
 
 </div>
@@ -22,22 +25,22 @@ A feature-rich desktop calculator built using **Java Swing** and **Apache NetBea
 
 ## 📖 About the Project
 
-The **Scientific Calculator** is a Java-based desktop application developed as part of my academic coursework to strengthen my understanding of **GUI development**, **event-driven programming**, and **Object-Oriented Programming (OOP)**.
+**Scientific Calculator** is a Java-based desktop application developed to strengthen practical knowledge of **GUI development**, **Java Swing**, **event handling**, and **Object-Oriented Programming**.
 
-Built with the `javax.swing` library, the application allows users to perform calculations using an interactive button-based interface while demonstrating practical implementation of Java desktop applications.
+The application provides a user-friendly graphical interface where users can perform arithmetic calculations through interactive buttons, making it an excellent demonstration of Java desktop application development.
 
 ---
 
 ## ✨ Features
 
-- 🖥️ Interactive Java Swing graphical interface
-- 🔢 Button-based numeric input
-- ➕ Basic arithmetic operations
-- 🧹 Clear (C) functionality
-- ⬅️ Backspace/Delete support
-- ⚡ Event-driven button handling
-- 🎨 Clean and beginner-friendly UI
-- 💻 Lightweight desktop application
+* 🖥️ Interactive Java Swing GUI
+* 🔢 Button-based numeric input
+* ➕ Addition, Subtraction, Multiplication & Division
+* 🧹 Clear (C) button to reset input
+* ⬅️ Backspace/Delete functionality
+* ⚡ Event-driven programming using Action Listeners
+* 🎨 Clean and beginner-friendly interface
+* 💻 Lightweight desktop application
 
 ---
 
@@ -45,13 +48,14 @@ Built with the `javax.swing` library, the application allows users to perform ca
 
 <div align="center">
 
-| Technology | Purpose |
-|------------|---------|
-| <img src="https://skillicons.dev/icons?i=java" width="22"/> **Java** | Core programming language |
-| 🪟 **Java Swing** | Graphical User Interface |
-| <img src="https://skillicons.dev/icons?i=idea" width="22"/> **Apache NetBeans IDE 22** | Development Environment |
-| ⚙️ **JDK** | Compile & Run Application |
-| <img src="https://skillicons.dev/icons?i=git,github" height="22"/> **Git & GitHub** | Version Control |
+| Technology                                                                                                                       | Purpose                   |
+| -------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| <img src="https://skillicons.dev/icons?i=java" width="22"/> **Java**                                                             | Core Programming Language |
+| 🪟 **Java Swing**                                                                                                                | Graphical User Interface  |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" width="22"/> **Apache NetBeans IDE 22** | Development Environment   |
+| ⚙️ **JDK**                                                                                                                       | Compile & Run Java        |
+| <img src="https://skillicons.dev/icons?i=git" width="22"/> **Git**                                                               | Version Control           |
+| <img src="https://skillicons.dev/icons?i=github" width="22"/> **GitHub**                                                         | Repository Hosting        |
 
 </div>
 
@@ -65,7 +69,7 @@ Scientific_Calculator/
 ├── src/
 │   ├── Calculator.java
 │   ├── Calculator.form
-│   └── ...
+│   └── resources/
 │
 ├── nbproject/
 │
@@ -79,57 +83,57 @@ Scientific_Calculator/
 
 ---
 
+## 📸 Application Preview
+
+> Replace the image below with your own calculator screenshot.
+
+<p align="center">
+  <img src="images/calculator-ui.png" alt="Scientific Calculator UI" width="650"/>
+</p>
+
+---
+
 ## ⚙️ Getting Started
 
 ### Prerequisites
 
-Make sure the following are installed:
+Before running the project, install:
 
-- ☕ Java Development Kit (JDK 17 or later)
-- 🪟 Apache NetBeans IDE 22
+* ☕ Java Development Kit (JDK 17+)
+* 🪟 Apache NetBeans IDE 22
 
 ### Installation
 
-1. **Clone the repository**
+#### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/priyanshi17112007/Scientific_calculator.git
 ```
 
-2. **Open in NetBeans**
+#### 2️⃣ Open the Project
 
-- Launch **Apache NetBeans IDE 22**
-- Navigate to **File → Open Project**
-- Select the cloned project folder
+* Launch **Apache NetBeans IDE 22**
+* Click **File → Open Project**
+* Select the cloned project folder
 
-3. **Run the application**
+#### 3️⃣ Run the Application
 
-- Right-click the project
-- Select **Run**
-- Or simply press **F6**
-
----
-
-## 📸 Application Preview
-
-> Replace these placeholders with your project screenshots.
-
-| Calculator UI |
-|---------------|
-| <img width="700" alt="Calculator Screenshot" src="https://via.placeholder.com/700x420.png?text=Scientific+Calculator+UI"> |
+* Right-click the project
+* Choose **Run**
+* Or press **F6**
 
 ---
 
-## 🧠 Concepts Practiced
+## 🧠 What I Learned
 
-This project helped me gain hands-on experience with:
+This project helped me develop practical skills in:
 
-- Object-Oriented Programming (OOP)
-- Java Swing GUI Design
-- Action Listeners & Event Handling
-- Button-based User Interaction
-- Desktop Application Development
-- IDE-based Java Project Management
+* Object-Oriented Programming (OOP)
+* Java Swing GUI Development
+* Event Handling with Action Listeners
+* Desktop Application Design
+* User Interface Components
+* Java Project Structure & IDE Workflow
 
 ---
 
@@ -137,12 +141,39 @@ This project helped me gain hands-on experience with:
 
 Planned improvements include:
 
-- Scientific functions (`sin`, `cos`, `tan`, `log`, `√`)
-- Keyboard input support
-- Calculation history panel
-- Dark mode interface
-- Better exception handling & input validation
-- Improved UI/UX design
+* Scientific functions (`sin`, `cos`, `tan`, `log`, `√`)
+* Keyboard input support
+* Dark mode interface
+* Calculation history
+* Better error handling & validation
+* Improved UI/UX design
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a new feature branch
+
+```bash
+git checkout -b feature/new-feature
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Added new feature"
+```
+
+4. Push to GitHub
+
+```bash
+git push origin feature/new-feature
+```
+
+5. Open a Pull Request
 
 ---
 
@@ -150,15 +181,15 @@ Planned improvements include:
 
 <div align="center">
 
-### Priyanshi Sharma
+## Priyanshi Sharma
 
 **B.Tech Computer Science (AI Specialization)**
 
-Passionate about **Artificial Intelligence • Java Development • Software Engineering**
+Passionate about **Artificial Intelligence • Development • Software Engineering**
 
-<p align="center">
+<p>
   <a href="https://github.com/priyanshi17112007">
-    <img src="https://img.shields.io/badge/GitHub-@priyanshi17112007-181717?style=for-the-badge&logo=github"/>
+    <img src="https://img.shields.io/badge/GitHub-@priyanshi17112007-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
 </p>
 
@@ -168,7 +199,7 @@ Passionate about **Artificial Intelligence • Java Development • Software Eng
 
 ## ⭐ Support
 
-If you found this project helpful, consider giving it a **Star** on GitHub!
+If you like this project, consider giving it a **Star ⭐** on GitHub!
 
 <div align="center">
 
