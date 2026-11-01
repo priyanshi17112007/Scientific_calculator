@@ -5,6 +5,7 @@
 ### Java Swing Desktop Calculator Application
 
 A modern **Scientific Calculator** built using **Java Swing** and **Apache NetBeans IDE 22**.
+It provides an interactive GUI for performing arithmetic and scientific calculations with event-driven programming.
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,git,github,vscode" />
